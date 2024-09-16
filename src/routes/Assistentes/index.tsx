@@ -31,6 +31,9 @@ function Assistentes() {
             <form className="flex-col justify-center items-start gap-2.5 inline-flex">
               <Input icon="bg-icon-search" classname={'w-[340px] h-14 p-4 pl-12 font-normal text-sm box-border rounded-2xl border-2 border-color_7 bg-color_3 focus:outline-color_9 drop-shadow-row placeholder-color_9 text-color_9'} type="text" placeholder="Buscar..." name={"txtBuscar"} id={'buscar'} required={false}/>
             </form>
+            <div className="w-[340px] h-[670px] bg-white rounded-2xl border-2 border-neutral-200 flex p-3 flex-col gap-5 overflow-x-hidden shadow-bg_gray">
+              
+            </div>
           </section>
           <section className="w-[667px] h-[848px] flex-col items-start gap-[25px] inline-flex">
           </section>
