@@ -1,3 +1,7 @@
+import { Link } from "react-router-dom";
+import Logo from "../../components/Globais/Logo";
+import Header from "../../components/Header/Header";
+
 function Error() {
 
     document.title = "Lele's Repairs - Erro";
