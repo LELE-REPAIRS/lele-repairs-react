@@ -2,7 +2,7 @@
 
 # Challange Tech - Porto Seguro - Front-End Design Engineering - Sprint 3
 
-![Static Badge](https://img.shields.io/badge/build-passing-brightgreen) ![Static Badge](https://img.shields.io/badge/Version-1.0.2-black)
+![Static Badge](https://img.shields.io/badge/build-passing-brightgreen) ![Static Badge](https://img.shields.io/badge/Version-1.0.1-black)
 
 ## 🧑‍🤝‍🧑 Informações dos Contribuintes
 
@@ -11,6 +11,13 @@
 | André Rogério Vieira Pavanela Altobelli Antunes | 554764 | 1TDSPH |
 | Leticia Cristina dos Santos Passos | 555241 | 1TDSPH |
 | Pedro Herique Vasco Antonieti | 556253 | 1TDSPH |
+<p align="right"><a href="#readme-top">Voltar ao topo</a></p>
+
+## 🚩 Apresentação do Projeto - Youtube
+<iframe width="800" height="500" src="https://www.youtube.com/embed/5CgW_kTWizk?si=UklZTFjPdzeG8WKl&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Link: <a href="https://www.youtube.com/watch?v=5CgW_kTWizk" target="_blank">Youtube</a>
+<p align="right"><a href="#readme-top">Voltar ao topo</a></p>
 
 ## 🚩 Características
 
@@ -41,13 +48,13 @@ Para iniciar o projeto faz se necessário seguir algumas etapas abaixo:
 
 ### 🗃️ Instalação
 
-1. Clone o repositório:
+1. Clone o repositório para a sua pasta:
     ```sh
-    git clone https://github.com/LELE-REPAIRS/lele-repairs-ui-v2.git
+    git clone https://github.com/LELE-REPAIRS/lele-repairs-react.git
     ```
-2. Acesse a pasta `my-app`:
+2. Acesse a `<sua_pasta>`:
     ```sh
-    cd my-app
+    cd <sua_pasta>
     ```
 3. Instale os package do NPM:
     ```sh
