@@ -3,6 +3,7 @@ import Avatar from "../../components/Globais/Avatar";
 import Input from "../../components/Globais/Input";
 import MenuList from "../../components/Globais/MenuList";
 import Header from "../../components/Header/Header";
+import './index.css'
 
 function Assistentes() {
     
