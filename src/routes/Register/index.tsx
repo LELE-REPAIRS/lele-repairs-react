@@ -1,3 +1,6 @@
+import Input from "../../components/Globais/Input";
+import Logo from "../../components/Globais/Logo";
+
 function Register() {
     
     document.title = "Lele's Repairs - Cadastro";
@@ -7,6 +10,15 @@ function Register() {
         <main className="flex flex-row justify-center items-center drop-shadow-row">
           <section className="w-[328px] h-full rounded-[30px] border-[2px] border-color_6 bg-color_2">
             <div className="w-full h-full inline-flex flex-col items-center p-4 gap-4">
+              <Logo/>
+              <div className="w-72 h-full flex flex-col items-center gap-4">
+                <form className="w-72h-full flex flex-col items-center gap-3" action="/assistentes" method="get">
+                  <Input icon="bg-icon-card" classname={'w-72 h-12 p-3 pl-10 font-normal text-sm box-border rounded-full border-2 border-color_7 bg-color_3 focus:outline-color_9 drop-shadow-row placeholder-color_9 text-color_9'} type="text" placeholder="Nome" name={"txtNome"} id={'nome'} required={true}/>
+                  <Input icon="bg-icon-document" classname={'w-72 h-12 p-3 pl-10 font-normal text-sm box-border rounded-full border-2 border-color_7 bg-color_3 focus:outline-color_9 drop-shadow-row placeholder-color_9 text-color_9'} type="text" placeholder="CPF" name={"txtCPF"} id={'cpf'} minlength={11} maxlength={11} required={true}/>
+                  <Input icon="bg-icon-email" classname={'w-72 h-12 p-3 pl-10 font-normal text-sm box-border rounded-full border-2 border-color_7 bg-color_3 focus:outline-color_9 drop-shadow-row placeholder-color_9 text-color_9'} type="email" placeholder="E-mail" name={"txtEmail"} id={'email'} required={true}/>
+                  <Input icon="bg-icon-password" classname={'w-72 h-12 p-3 pl-10 font-normal text-sm box-border rounded-full border-2 border-color_7 bg-color_3 focus:outline-color_9 drop-shadow-row placeholder-color_9 text-color_9'} type="password" placeholder="Senha" name={"txtSenha"} id={'senha'} minlength={8} maxlength={16} required={true}/>
+                </form>
+              </div>
             </div>
           </section>
         </main>
