@@ -55,6 +55,10 @@ function Assistentes() {
             <div className="w-[667px] h-[152px] flex-col justify-center items-center flex bg-white rounded-2xl border-2 border-neutral-200 shadow-bg_gray">
               <InfoBot name={"Diogo Albuquerque"} categoria={"Óleo do Motor"} avatar={"/bot-1.svg"} tags={['Óleo', 'Motor', 'Vazamento']}/>
             </div>
+            <div className="w-[667px] h-[671px] flex-col justify-start items-start flex bg-white rounded-2xl border-2 border-neutral-200 shadow-bg_gray p-5 gap-5">
+              <div className="w-[623px] flex flex-grow flex-col shrink basis-0 justify-start items-start gap-5 overflow-x-hidden">
+              </div>
+            </div>
           </section>
         </main>
       </Header>
