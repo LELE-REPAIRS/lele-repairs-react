@@ -35,7 +35,9 @@ function Conhecimentos() {
             <Conhecimento assunto={"Óleo do Motor"} descricao={"Entenda para que serve o óleo do motor."} data={"Segunda-feira, 19 de Fevereiro de 2024 às 13:50"} icon={"/conhecimento-1.svg"} />
             <Conhecimento assunto={"Água do Radiador"} descricao={"Entenda para que serve a água do radiador."} data={"Segunda-feira, 19 de Fevereiro de 2024 às 13:50"} icon={"/conhecimento-2.svg"} />
             <Conhecimento assunto={"Pastilhas"} descricao={"Entenda para que serve as pastilhas."} data={"Segunda-feira, 19 de Fevereiro de 2024 às 13:50"} icon={"/conhecimento-3.svg"} />
-
+            <Conhecimento assunto={"Correira Dentada"} descricao={"Entenda para que serve a correia dentada."} data={"Segunda-feira, 19 de Fevereiro de 2024 às 13:50"} icon={"/conhecimento-4.svg"} />
+            <Conhecimento assunto={"Rodas e Pneus"} descricao={"Entenda para que serve as rodas e pneus."} data={"Segunda-feira, 19 de Fevereiro de 2024 às 13:50"} icon={"/conhecimento-5.svg"} />
+            <Conhecimento assunto={"Velas de Ingnição"} descricao={"Entenda para que serve as velas de ingnição."} data={"Segunda-feira, 19 de Fevereiro de 2024 às 13:50"} icon={"/conhecimento-6.svg"} />
           </div>
         </section>
 
