@@ -42,7 +42,18 @@ function Sobre() {
                       </div>
                   </div> 
                 </div>
-
+                <div className="self-stretch justify-start items-center gap-3 inline-flex">
+                <img className="w-[200px] h-[200px] rounded-full" src="/contribuinte-leticia.png"/>
+                    <div className="w-auto bg-color_3 rounded-[30px] border-l-[5px] border-color_7 p-[15px_15px_15px]">
+                        <div className="relative text-left text-color_11 text-[25px] font-bold">Leticia Cristina dos Santos Passos</div>
+                        <div className="w-[235px] text-color_11 text-[20px] font-normal text-justify">RM: 555241</div>
+                        <div className="h-8 justify-start items-center inline-flex">
+                          <a href="https://www.linkedin.com/in/leticia-cristina-dos-santos-passos-a1a988233/" target="_blank" className="w-8 h-8 relative bg-icon-linkedin bg-center"/>
+                          <a href="https://www.instagram.com/passos_ley/" target="_blank" className="w-8 h-8 relative bg-icon-instagram bg-center"/>
+                          <a href="https://github.com/lecristina" target="_blank" className="w-8 h-8 relative bg-icon-github bg-center"/>
+                        </div>
+                    </div>
+            </div>
         </main>
       </Header> 
     );
