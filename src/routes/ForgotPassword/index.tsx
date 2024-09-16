@@ -1,10 +1,8 @@
-
 import { Link } from "react-router-dom";
+import Checkmark from "../../components/Globais/Checkmark";
+import Input from "../../components/Globais/Input";
 import Logo from "../../components/Globais/Logo";
 import Header from "../../components/Header/Header";
-import Input from "../../components/Globais/Input";
-import Checkmark from "../../components/Globais/Checkmark";
-
 
 function ForgotPassword(){
     
@@ -24,7 +22,7 @@ function ForgotPassword(){
                                 <button className="flex items-center justify-center gap-2.5 h-11 px-11 rounded-full border-2 border-color_6 bg-color_3 shadow-button font-semibold text-color_11 cursor-pointer hover:bg-color_4" id="button-submit" type="submit">Enviar</button>
                             </form>
                             <Link className="font-normal leading-normal text-xs underline text-color_9" to="/">Voltar {'>'}</Link>
-                        </div>  
+                        </div>
                     </div>
                 </section>
             </main>
