@@ -24,6 +24,9 @@ function Assistentes() {
         </nav>
         <main className="w-[1084px] h-[900px] bg-color_2 rounded-[30px] border-2 border-color_6 flex flex-row pt-6 pb-6 px-6 gap-[25px]">
           <section className="relative flex-col justify-center items-start inline-flex gap-[25px]">
+            <div className="w-[340px] justify-center items-center inline-flex">
+              <h1 className="pt-8 px-20 text-center text-color_11 text-[32px] font-bold leading-10">Assistentes</h1>
+            </div>
           </section>
           <section className="w-[667px] h-[848px] flex-col items-start gap-[25px] inline-flex">
           </section>
