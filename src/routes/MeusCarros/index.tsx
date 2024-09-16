@@ -49,7 +49,13 @@ function MeusCarros() {
             </button>
           </div>
         </section>
-
+        <section className="w-[667px] h-[848px] flex-col items-start gap-[25px] inline-flex">
+          <div className="w-[667px] h-[152px] flex-col justify-center items-center flex bg-white rounded-2xl border-2 border-neutral-200 shadow-bg_gray">
+            <InfoCar apelido={"Carro 1"} marca={"Chevrolet"} modelo={"Onix"} ano={2018} img_car={"/car_chevrolet.svg"} km={100} />
+          </div>
+          <div className="w-[667px] h-[671px] flex-col justify-start items-start flex bg-white rounded-2xl border-2 border-neutral-200 shadow-bg_gray">
+          </div>
+        </section>
       </main>
     </Header >
   );
