@@ -1,4 +1,5 @@
 import Avatar from "../../components/Globais/Avatar";
+import Input from "../../components/Globais/Input";
 import MenuList from "../../components/Globais/MenuList";
 import Header from "../../components/Header/Header";
 
@@ -22,7 +23,23 @@ function Conhecimentos() {
           <MenuList icon={'bg-icon-logout'} select={false} to={'/'} value="Sair" />
         </div>
       </nav>
+      <main className="w-[1084px] h-[900px] bg-color_2 rounded-[30px] border-2 border-color_6 flex flex-row pt-6 pb-6 px-6 gap-[25px]">
+        <section className="relative flex-col justify-center items-start inline-flex gap-[25px]">
+          <div className="w-[340px] justify-center items-center inline-flex">
+            <h1 className="pt-8 px-20 text-center text-color_11 text-[32px] font-bold leading-10">Conhecimentos</h1>
+          </div>
+          <div className="flex-col justify-center items-start gap-2.5 inline-flex">
+            <Input icon="bg-icon-search" classname={'w-[340px] h-14 p-4 pl-12 font-normal text-sm box-border rounded-2xl border-2 border-color_7 bg-color_3 focus:outline-color_9 drop-shadow-row placeholder-color_9 text-color_9'} type="text" placeholder="Buscar..." name={"txtBuscar"} id={'buscar'} required={false} />
+          </div>
+          <div className="w-[340px] h-[670px] bg-white rounded-2xl border-2 border-neutral-200 flex p-3 flex-col gap-5 overflow-x-hidden shadow-bg_gray">
+            <Conhecimento assunto={"Óleo do Motor"} descricao={"Entenda para que serve o óleo do motor."} data={"Segunda-feira, 19 de Fevereiro de 2024 às 13:50"} icon={"/conhecimento-1.svg"} />
+            <Conhecimento assunto={"Água do Radiador"} descricao={"Entenda para que serve a água do radiador."} data={"Segunda-feira, 19 de Fevereiro de 2024 às 13:50"} icon={"/conhecimento-2.svg"} />
+            <Conhecimento assunto={"Pastilhas"} descricao={"Entenda para que serve as pastilhas."} data={"Segunda-feira, 19 de Fevereiro de 2024 às 13:50"} icon={"/conhecimento-3.svg"} />
 
+          </div>
+        </section>
+
+      </main>
     </Header>
   );
 }
