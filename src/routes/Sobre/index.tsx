@@ -22,7 +22,28 @@ function Sobre() {
             <MenuList icon={'bg-icon-logout'} select={false} to={'/'} value="Sair"/>
           </div>
         </nav>
-        
+        <main className="w-[1084px] h-[900px] bg-color_2 rounded-[30px] border-2 border-color_6 flex flex-row pt-6 pb-6 px-6 gap-[25px]">
+          <div className="relative flex-col justify-center items-start inline-flex gap-[25px]">
+              <div className="w-[1032px] justify-center items-center inline-flex">
+                <h1 className="pt-8 px-20 text-center text-color_11 text-[32px] font-bold leading-10">Sobre</h1>
+              </div>
+              <div className="w-[1032px] h-[751px] flex p-5 flex-col justify-center bg-white rounded-2xl border-2 border-neutral-200 shadow-bg_gray gap-5">
+                <div className="self-stretch justify-start items-center gap-3 inline-flex">
+                  <img className="w-[200px] h-[200px] rounded-full" src="/contribuinte-andre.png"/>
+                      <div className="w-auto bg-color_3 rounded-[30px] border-l-[5px] border-color_7 p-[15px_15px_15px]">
+                          <div className="relative text-left text-color_11 text-[25px] font-bold">André Rogério Vieira Pavanela Altobelli Antunes</div>
+                          <div className="w-[235px] text-color_11 text-[20px] font-normal text-justify">RM: 554764</div>
+                          <div className="h-8 justify-start items-center inline-flex">
+                            <a href="https://www.linkedin.com/in/andr%C3%A9-altobelli-antunes-99377425b/" target="_blank" className="w-8 h-8 relative bg-icon-linkedin bg-center"/>
+                            <a href="https://www.instagram.com/_andre.rogerio/" target="_blank" className="w-8 h-8 relative bg-icon-instagram bg-center"/>
+                            <a href="https://github.com/andrealtobelli" target="_blank" className="w-8 h-8 relative bg-icon-github bg-center"/>
+                          </div> 
+                        </div>             
+                      </div>
+                  </div> 
+                </div>
+
+        </main>
       </Header> 
     );
 }
