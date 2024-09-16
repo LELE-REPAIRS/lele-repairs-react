@@ -1,3 +1,5 @@
+import Input from "../../components/Globais/Input";
+import Logo from "../../components/Globais/Logo";
 import Header from "../../components/Header/Header";
 
 function Login() {
@@ -9,7 +11,10 @@ function Login() {
         <main className="flex flex-row justify-center items-center">
           <section className="w-[328px] h-full rounded-[30px] border-[2px] border-color_6 bg-color_2">
             <div className="w-full h-full inline-flex flex-col items-center p-4 gap-4">
+              <Logo/>
               <form className="w-72h-full flex flex-col items-center gap-3" action="/assistentes" method="get">
+                <Input icon="bg-icon-email" classname={'w-72 h-12 p-3 pl-10 font-normal text-sm box-border rounded-full border-2 border-color_7 bg-color_3 focus:outline-color_9 drop-shadow-row placeholder-color_9 text-color_9'} type="email" placeholder="E-mail" name={"txtEmail"} id={'email'} required={true}/>
+                <Input icon="bg-icon-password" classname={'w-72 h-12 p-3 pl-10 font-normal text-sm box-border rounded-full border-2 border-color_7 bg-color_3 focus:outline-color_9 drop-shadow-row placeholder-color_9 text-color_9'} type="password" placeholder="Senha" name={"txtSenha"} id={'senha'} minlength={8} maxlength={16} required={true}/>
               </form>
             </div>
           </section>
