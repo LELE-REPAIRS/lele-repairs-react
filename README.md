@@ -18,7 +18,7 @@
 * <a href="https://www.youtube.com/watch?v=5CgW_kTWizk" target="_blank">![Static badge](https://img.shields.io/badge/Youtube-20232A?style=for-the-badge&logo=youtube&logoColor=c4302b)</a>
   - Caso o botão acima não funcione:
     ```link
-    https://www.youtube.com/watch?v=5CgW_kTWiz
+    https://youtu.be/5CgW_kTWizk
     ```
 <p align="right"><a href="#readme-top">Voltar ao topo</a></p>
 
