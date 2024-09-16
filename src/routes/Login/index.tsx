@@ -21,6 +21,10 @@ function Login() {
                 <button className="flex items-center justify-center gap-2.5 h-11 px-11 rounded-full border-2 border-color_6 bg-color_3 shadow-button font-semibold text-color_11 cursor-pointer hover:bg-color_4" id="button-submit" type="submit">Entrar</button>
                 <Link className="font-normal leading-normal text-xs underline text-color_9" to="/forgot-password">Esqueci a senha {'>'}</Link>
                 <Link className="font-normal leading-normal text-xs underline text-color_9" to="/cadastro">Primeiro acesso {'>'}</Link>
+                <div className="h-8 justify-start items-center inline-flex">
+                  <div className="w-8 h-8 relative bg-icon-facebook bg-center"/>
+                  <div className="w-8 h-8 relative bg-icon-instagram bg-center"/>
+                </div>
               </form>
             </div>
           </section>
