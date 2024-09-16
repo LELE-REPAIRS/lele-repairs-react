@@ -2,6 +2,8 @@
 import { Link } from "react-router-dom";
 import Logo from "../../components/Globais/Logo";
 import Header from "../../components/Header/Header";
+import Input from "../../components/Globais/Input";
+
 
 function ForgotPassword(){
     
@@ -15,7 +17,10 @@ function ForgotPassword(){
                         <Logo/>
                         <div className="w-72 h-full flex flex-col items-center gap-4">
                             <p className="font-normal leading-normal text-color_8 text-sm text-justify">Para recuperar a sua senha, informe seu endereço de e-mail que nós exibiremos a sua senha cadastrada!</p>
-                            
+                            <form className="w-72h-full flex flex-col items-center gap-3" action="/forgot-password" method="get">
+                                <Input icon="bg-icon-email" classname={'w-72 h-12 p-3 pl-10 font-normal text-sm box-border rounded-full border-2 border-color_7 bg-color_3 focus:outline-color_9 drop-shadow-row placeholder-color_9 text-color_9'} type="text" placeholder="E-mail" name={"txtEmail"} id={'email'} required={true}/>
+                                
+                            </form>
                             <Link className="font-normal leading-normal text-xs underline text-color_9" to="/">Voltar {'>'}</Link>
                         </div>  
                     </div>
