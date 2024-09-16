@@ -38,6 +38,11 @@ function Conhecimentos() {
             <Conhecimento assunto={"Correira Dentada"} descricao={"Entenda para que serve a correia dentada."} data={"Segunda-feira, 19 de Fevereiro de 2024 às 13:50"} icon={"/conhecimento-4.svg"} />
             <Conhecimento assunto={"Rodas e Pneus"} descricao={"Entenda para que serve as rodas e pneus."} data={"Segunda-feira, 19 de Fevereiro de 2024 às 13:50"} icon={"/conhecimento-5.svg"} />
             <Conhecimento assunto={"Velas de Ingnição"} descricao={"Entenda para que serve as velas de ingnição."} data={"Segunda-feira, 19 de Fevereiro de 2024 às 13:50"} icon={"/conhecimento-6.svg"} />
+            <Conhecimento assunto={"Filtro de Ar"} descricao={"Entenda para que serve o filtro de ar."} data={"Segunda-feira, 19 de Fevereiro de 2024 às 13:50"} icon={"/conhecimento-7.svg"} />
+            <Conhecimento assunto={"Filtro de Combustível"} descricao={"Entenda para que serve o filtro de combustível."} data={"Segunda-feira, 19 de Fevereiro de 2024 às 13:50"} icon={"/conhecimento-8.svg"} />
+            <Conhecimento assunto={"Fluído de Freio"} descricao={"Entenda para que serve fluído de freio."} data={"Segunda-feira, 19 de Fevereiro de 2024 às 13:50"} icon={"/conhecimento-9.svg"} />
+            <Conhecimento assunto={"Baterias"} descricao={"Entenda para que serve as baterias."} data={"Segunda-feira, 19 de Fevereiro de 2024 às 13:50"} icon={"/conhecimento-10.svg"} />
+
           </div>
         </section>
 
