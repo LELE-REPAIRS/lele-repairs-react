@@ -3,6 +3,7 @@ import Input from "../../components/Globais/Input";
 import MenuList from "../../components/Globais/MenuList";
 import Header from "../../components/Header/Header";
 import Car from "../../components/MeusCarros/Car";
+import InfoCar from "../../components/MeusCarros/InfoCar";
 
 function MeusCarros() {
 
