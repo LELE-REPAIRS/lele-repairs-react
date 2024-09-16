@@ -1,3 +1,7 @@
+import Avatar from "../../components/Globais/Avatar";
+import MenuList from "../../components/Globais/MenuList";
+import Header from "../../components/Header/Header";
+
 function MeusCarros() {
 
   document.title = "Lele's Repairs - Login";
@@ -18,10 +22,8 @@ function MeusCarros() {
           <MenuList icon={'bg-icon-logout'} select={false} to={'/'} value="Sair" />
         </div>
       </nav>
-
-    </main>
-      </Header >  
-    );
+    </Header >
+  );
 }
 
 export default MeusCarros;
