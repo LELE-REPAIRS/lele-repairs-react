@@ -44,6 +44,10 @@ function Assistentes() {
               <ChatActive name={"Victor Miranda"} categoria={"Correira Dentada"} last_message={"Última menssagem"} last_message_date={"10h atrás"} avatar={"/bot-3.svg"}/>
               <ChatActive name={"Vinícius Silva"} categoria={"Filtro do Combustível"} last_message={"Última menssagem"} last_message_date={"10h atrás"} avatar={"/bot-5.svg"}/>
               <ChatActive name={"José Almeida"} categoria={"Água do Radiador"} last_message={"Última menssagem"} last_message_date={"10h atrás"} avatar={"/bot-10.svg"}/>
+              <button className="w-[310px] h-[41.67px] justify-center items-center gap-2.5 inline-flex" type="submit">
+                <img src="./icon_plus.svg"></img>
+                <h1 className="flex-col justify-start items-start inline-flex text-[#0077ca] text-[15px] font-bold">Iniciar um novo diagnóstico</h1>
+              </button>
             </div>
           </section>
           <section className="w-[667px] h-[848px] flex-col items-start gap-[25px] inline-flex">
