@@ -22,6 +22,28 @@ function MeusCarros() {
           <MenuList icon={'bg-icon-logout'} select={false} to={'/'} value="Sair" />
         </div>
       </nav>
+      <main className="w-[1084px] h-[900px] bg-color_2 rounded-[30px] border-2 border-color_6 flex flex-row pt-6 pb-6 px-6 gap-[25px]">
+        <section className="relative flex-col justify-center items-start inline-flex gap-[25px]">
+          <div className="w-[340px] justify-center items-center inline-flex">
+            <h1 className="pt-8 px-20 text-center text-color_11 text-[29px] font-bold leading-10">Meus Carros</h1>
+          </div>
+          <form className="flex-col justify-center items-start gap-2.5 inline-flex">
+            <Input icon="bg-icon-search" classname={'w-[340px] h-14 p-4 pl-12 font-normal text-sm box-border rounded-2xl border-2 border-color_7 bg-color_3 focus:outline-color_9 drop-shadow-row placeholder-color_9 text-color_9'} type="text" placeholder="Buscar..." name={"txtBuscar"} id={'buscar'} required={false} />
+          </form>
+          <div className="w-[340px] h-[670px] bg-white rounded-2xl border-2 border-neutral-200 flex p-3 flex-col gap-5 overflow-x-hidden shadow-bg_gray">
+            <Car apelido={"Carro 1"} marca={"Chevrolet"} modelo={"Onix"} ano={2018} img_car={"/car_chevrolet.svg"} km={100} />
+            <Car apelido={"Carro 2"} marca={"Fiat"} modelo={"Mobi"} ano={2019} img_car={"/car_fiat.svg"} km={10} />
+            <Car apelido={"Carro 3"} marca={"Toyota"} modelo={"Etios"} ano={2020} img_car={"/car_toyota.svg"} km={23} />
+            <Car apelido={"Carro 4"} marca={"BMW"} modelo={"iX1"} ano={2021} img_car={"/car_BMW.svg"} km={123} />
+
+            <button className="w-[310px] h-[41.67px] justify-center items-center gap-2.5 inline-flex" type="submit">
+              <img src="./icon_plus.svg"></img>
+              <h1 className="flex-col justify-start items-start inline-flex text-[#0077ca] text-[15px] font-bold">Cadastrar novo veículo</h1>
+            </button>
+          </div>
+        </section>
+
+      </main>
     </Header >
   );
 }
