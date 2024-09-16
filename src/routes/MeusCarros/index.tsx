@@ -35,7 +35,12 @@ function MeusCarros() {
             <Car apelido={"Carro 2"} marca={"Fiat"} modelo={"Mobi"} ano={2019} img_car={"/car_fiat.svg"} km={10} />
             <Car apelido={"Carro 3"} marca={"Toyota"} modelo={"Etios"} ano={2020} img_car={"/car_toyota.svg"} km={23} />
             <Car apelido={"Carro 4"} marca={"BMW"} modelo={"iX1"} ano={2021} img_car={"/car_BMW.svg"} km={123} />
-
+            <Car apelido={"Carro 5"} marca={"Lamborghini"} modelo={"Aventador"} ano={2022} img_car={"/car_lamborghini.svg"} km={234} />
+            <Car apelido={"Carro 6"} marca={"Ferrari"} modelo={"F430"} ano={20223} img_car={"/car_ferrari.svg"} km={43} />
+            <Car apelido={"Carro 7"} marca={"Rolls Royce"} modelo={"Cullinan"} ano={2024} img_car={"/car_rollsroyce.svg"} km={1} />
+            <Car apelido={"Carro 8"} marca={"Land Rover"} modelo={"Range Rover"} ano={2024} img_car={"/car_landrover.svg"} km={100} />
+            <Car apelido={"Carro 9"} marca={"Tesla"} modelo={"Model 3"} ano={2017} img_car={"/car_tesla.svg"} km={100} />
+            <Car apelido={"Carro 10"} marca={"Ford"} modelo={"RANGER"} ano={2024} img_car={"/car_ford.svg"} km={100} />
             <button className="w-[310px] h-[41.67px] justify-center items-center gap-2.5 inline-flex" type="submit">
               <img src="./icon_plus.svg"></img>
               <h1 className="flex-col justify-start items-start inline-flex text-[#0077ca] text-[15px] font-bold">Cadastrar novo veículo</h1>
