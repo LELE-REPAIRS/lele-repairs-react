@@ -1,4 +1,5 @@
 import ChatActive from "../../components/Assistentes/ChatActive";
+import InfoBot from "../../components/Assistentes/Infobot";
 import Avatar from "../../components/Globais/Avatar";
 import Input from "../../components/Globais/Input";
 import MenuList from "../../components/Globais/MenuList";
@@ -52,6 +53,7 @@ function Assistentes() {
           </section>
           <section className="w-[667px] h-[848px] flex-col items-start gap-[25px] inline-flex">
             <div className="w-[667px] h-[152px] flex-col justify-center items-center flex bg-white rounded-2xl border-2 border-neutral-200 shadow-bg_gray">
+              <InfoBot name={"Diogo Albuquerque"} categoria={"Óleo do Motor"} avatar={"/bot-1.svg"} tags={['Óleo', 'Motor', 'Vazamento']}/>
             </div>
           </section>
         </main>
