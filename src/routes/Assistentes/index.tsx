@@ -5,6 +5,8 @@ import Input from "../../components/Globais/Input";
 import MenuList from "../../components/Globais/MenuList";
 import Header from "../../components/Header/Header";
 import './index.css'
+import MessageOther from "./MessageOther";
+import MessageSelf from "./MessageSelf";
 
 function Assistentes() {
     
@@ -57,6 +59,13 @@ function Assistentes() {
             </div>
             <div className="w-[667px] h-[671px] flex-col justify-start items-start flex bg-white rounded-2xl border-2 border-neutral-200 shadow-bg_gray p-5 gap-5">
               <div className="w-[623px] flex flex-grow flex-col shrink basis-0 justify-start items-start gap-5 overflow-x-hidden">
+                <MessageSelf menssagem={"Olá, meu carro está com problema, me ajuda!!! 😔"} tempo={"17h atrás"} avatar={"/user-logged.png"}/>
+                <MessageOther menssagem={"Olá Pedro, fique tranquilo, irei te dar um diagnóstico, mas para isso preciso de algumas informações."} tempo={"16h atrás"} avatar={"/bot-1.svg"}/>       
+                <MessageSelf menssagem={"Pelo que reparei ele vibra muito quando meu câmbio está no ponto morto."} tempo={"16h atrás"} avatar={"/user-logged.png"}/>
+                <MessageOther menssagem={"Certo, no painel do seu carro aparece alguma luz acessa?"} tempo={"16h atrás"} avatar={"/bot-1.svg"}/> 
+                <MessageSelf menssagem={"Tem uma luz com um simbolo de óleo."} tempo={"15h atrás"} avatar={"/user-logged.png"}/>
+                <MessageOther menssagem={"Ótimo! Com base nas informações passadas por você, consegui identificar que seu carro pode estar com o óleo do motor vencido. A vibração que você sente acontece por atrito entre os pistões, anéis aumentam considerávelmente."} tempo={"15h atrás"} avatar={"/bot-1.svg"}/> 
+                <MessageOther menssagem={"Vou gerar a Ordem de Serviço para você se direcionar a oficina mais próxima de sua localização. Solicito que aguarde que em alguns instantes te encaminho mais informações! 😉"} tempo={"15h atrás"} avatar={"/bot-1.svg"}/> 
               </div>
             </div>
           </section>
