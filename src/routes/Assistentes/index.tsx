@@ -1,4 +1,5 @@
 import Avatar from "../../components/Globais/Avatar";
+import Input from "../../components/Globais/Input";
 import MenuList from "../../components/Globais/MenuList";
 import Header from "../../components/Header/Header";
 
@@ -27,6 +28,9 @@ function Assistentes() {
             <div className="w-[340px] justify-center items-center inline-flex">
               <h1 className="pt-8 px-20 text-center text-color_11 text-[32px] font-bold leading-10">Assistentes</h1>
             </div>
+            <form className="flex-col justify-center items-start gap-2.5 inline-flex">
+              <Input icon="bg-icon-search" classname={'w-[340px] h-14 p-4 pl-12 font-normal text-sm box-border rounded-2xl border-2 border-color_7 bg-color_3 focus:outline-color_9 drop-shadow-row placeholder-color_9 text-color_9'} type="text" placeholder="Buscar..." name={"txtBuscar"} id={'buscar'} required={false}/>
+            </form>
           </section>
           <section className="w-[667px] h-[848px] flex-col items-start gap-[25px] inline-flex">
           </section>
