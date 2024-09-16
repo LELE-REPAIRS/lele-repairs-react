@@ -7,7 +7,7 @@ import InfoCar from "../../components/MeusCarros/InfoCar";
 
 function MeusCarros() {
 
-  document.title = "Lele's Repairs - Login";
+  document.title = "Lele's Repairs - Meus Carros";
 
   return (
     <Header>
