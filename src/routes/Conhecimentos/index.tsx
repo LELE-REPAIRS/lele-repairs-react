@@ -1,3 +1,4 @@
+import Conhecimento from "../../components/Conhecimento/Conhecimento";
 import Avatar from "../../components/Globais/Avatar";
 import Input from "../../components/Globais/Input";
 import MenuList from "../../components/Globais/MenuList";
