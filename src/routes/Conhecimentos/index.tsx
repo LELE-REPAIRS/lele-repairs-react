@@ -43,10 +43,15 @@ function Conhecimentos() {
             <Conhecimento assunto={"Filtro de Combustível"} descricao={"Entenda para que serve o filtro de combustível."} data={"Segunda-feira, 19 de Fevereiro de 2024 às 13:50"} icon={"/conhecimento-8.svg"} />
             <Conhecimento assunto={"Fluído de Freio"} descricao={"Entenda para que serve fluído de freio."} data={"Segunda-feira, 19 de Fevereiro de 2024 às 13:50"} icon={"/conhecimento-9.svg"} />
             <Conhecimento assunto={"Baterias"} descricao={"Entenda para que serve as baterias."} data={"Segunda-feira, 19 de Fevereiro de 2024 às 13:50"} icon={"/conhecimento-10.svg"} />
-
           </div>
         </section>
-
+        <section className="w-[667px] h-[848px] flex-col items-start gap-[25px] inline-flex">
+          <div className="w-[667px] h-[152px] flex-col justify-center items-center flex bg-white rounded-2xl border-2 border-neutral-200 shadow-bg_gray">
+            <InfoConhecimentos assunto={"Óleo do Motor"} descricao={"Entenda para que serve o óleo do motor!"} icon={"/conhecimento-1.svg"} />
+          </div>
+          <div className="w-[667px] h-[671px] flex-col justify-start items-start flex bg-white rounded-2xl border-2 border-neutral-200 shadow-bg_gray">
+          </div>
+        </section>
       </main>
     </Header>
   );
