@@ -14,9 +14,12 @@
 <p align="right"><a href="#readme-top">Voltar ao topo</a></p>
 
 ## 🚩 Apresentação do Projeto - Youtube
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5CgW_kTWizk?si=JamEzs5DHzJnCgOS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Link: <a href="https://www.youtube.com/watch?v=5CgW_kTWizk" target="_blank">Youtube</a>
+* <a href="https://www.youtube.com/watch?v=5CgW_kTWizk" target="_blank">![Static badge](https://img.shields.io/badge/Youtube-20232A?style=for-the-badge&logo=youtube&logoColor=c4302b)</a>
+  - Caso o botão acima não funcione:
+    ```link
+    https://www.youtube.com/watch?v=5CgW_kTWiz
+    ```
 <p align="right"><a href="#readme-top">Voltar ao topo</a></p>
 
 ## 🚩 Características
@@ -47,7 +50,6 @@ Para iniciar o projeto faz se necessário seguir algumas etapas abaixo:
     ```
 
 ### 🗃️ Instalação
-
 1. Clone o repositório para a sua pasta:
     ```sh
     git clone https://github.com/LELE-REPAIRS/lele-repairs-react.git
