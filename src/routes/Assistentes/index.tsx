@@ -67,6 +67,9 @@ function Assistentes() {
                 <MessageOther menssagem={"Ótimo! Com base nas informações passadas por você, consegui identificar que seu carro pode estar com o óleo do motor vencido. A vibração que você sente acontece por atrito entre os pistões, anéis aumentam considerávelmente."} tempo={"15h atrás"} avatar={"/bot-1.svg"}/> 
                 <MessageOther menssagem={"Vou gerar a Ordem de Serviço para você se direcionar a oficina mais próxima de sua localização. Solicito que aguarde que em alguns instantes te encaminho mais informações! 😉"} tempo={"15h atrás"} avatar={"/bot-1.svg"}/> 
               </div>
+              <form className="flex-col justify-center items-start gap-2.5 inline-flex">
+                <Input classname={'w-[623px] h-14 p-4 pl-5 font-normal text-sm box-border rounded-2xl border-2 border-color_7 bg-color_3 focus:outline-color_9 drop-shadow-row placeholder-color_9 text-color_9'} type="text" placeholder="Digite aqui sua mensagem..." name={"txtMenssagem"} id={'menssagem'} required={false}/>
+              </form>
             </div>
           </section>
         </main>
