@@ -5,8 +5,8 @@ import Input from "../../components/Globais/Input";
 import MenuList from "../../components/Globais/MenuList";
 import Header from "../../components/Header/Header";
 import './index.css'
-import MessageOther from "./MessageOther";
-import MessageSelf from "./MessageSelf";
+import MessageOther from "../../components/Assistentes/MessageOther";
+import MessageSelf from "../../components/Assistentes/MessageSelf";
 
 function Assistentes() {
     
