@@ -51,6 +51,8 @@ function Assistentes() {
             </div>
           </section>
           <section className="w-[667px] h-[848px] flex-col items-start gap-[25px] inline-flex">
+            <div className="w-[667px] h-[152px] flex-col justify-center items-center flex bg-white rounded-2xl border-2 border-neutral-200 shadow-bg_gray">
+            </div>
           </section>
         </main>
       </Header>
